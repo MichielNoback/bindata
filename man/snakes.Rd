@@ -20,6 +20,7 @@ snakes
 This dataframe holds data for Snout-vent length and mass for a large collection
 of snake species. Besides genus and species, family association is also included.
 This dataset was obtained at \url{https://academic.oup.com/biolinnean/article/108/1/161/2415670#supplementary-data}
+and cleaned manually, so errors are quite possible.
 }
 \examples{
 head(snakes)
