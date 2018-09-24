@@ -79,3 +79,66 @@
 #' @examples
 #' head(bird.observations)
 "bird.observations"
+
+#' Community Health Status Indicators (CSHI 2015)
+#'
+#' Some US demographic data.
+#'
+#' @references
+#' data downloaded from:
+#' https://catalog.data.gov/dataset/community-health-status-indicators-chsi-to-combat-obesity-heart-disease-and-cancer
+#'
+#' See \code{\link{health.stats.codebook}} for detailed description
+#' @format A data frame with  observations and  variables:
+#' \describe{
+#'
+#' \item{State_FIPS_Code}{}
+#' \item{County_FIPS_Code}{}
+#' \item{CHSI_County_Name}{Name of county}
+#' \item{CHSI_State_Name}{Name of State or District of Columbia}
+#' \item{CHSI_State_Abbr}{Two-character postal abbreviation for state name}
+#' \item{Strata_ID_Number}{CHSI Peer County Stratum Number}
+#' \item{Strata_Determining_Factors}{Listing of strata factors}
+#' \item{Number_Counties}{Number of peer counties}
+#' \item{Population_Size}{County data, population size}
+#' \item{Min_Population_Size}{}
+#' \item{Max_Population_Size}{}
+#' \item{Population_Density}{County data, population density (people per square mile)}
+#' \item{Min_Population_Density}{}
+#' \item{Max_Population_Density}{}
+#' \item{Poverty}{County data, percentage individuals living below poverty level}
+#' \item{Min_Poverty}{}
+#' \item{Max_Poverty}{}
+#' \item{Age_19_Under}{County data, percentage population under age 19}
+#' \item{Min_Age_19_Under}{}
+#' \item{Max_Age_19_Under}{}
+#' \item{Age_19_64}{County data, population age 19-64}
+#' \item{Min_Age_19_64}{}
+#' \item{Max_Age_19_65}{}
+#' \item{Age_65_84}{County data, population age 65-84}
+#' \item{Min_Age_65_84}{}
+#' \item{Max_Age_65_85}{}
+#' \item{Age_85_and_Over}{County data, population age 85+}
+#' \item{Min_Age_85_and_Over}{}
+#' \item{Max_Age_85_and_Over}{}
+#' \item{White}{County data, White}
+#' \item{Min_White}{}
+#' \item{Max_White}{}
+#' \item{Black}{County data, Black}
+#' \item{Min_Black}{}
+#' \item{Max_Black}{}
+#' \item{Native_American}{County data, American Indian}
+#' \item{Min_Native_American}{}
+#' \item{Max_Native_American}{}
+#' \item{Asian}{County data, Asian/Pacific Islander}
+#' \item{Min_Asian}{}
+#' \item{Max_Asian}{}
+#' \item{Hispanic}{County data, Hispanic origin}
+#' \item{Min_Hispanic}{}
+#' \item{Max_Hispanic}{}
+#' }
+#'
+#' @examples
+#' head(us.demography)
+#'
+"us.demography"

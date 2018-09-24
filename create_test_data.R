@@ -28,10 +28,21 @@ create.golden.gate.observations.df <- function() {
   devtools::use_data(bird.observations, overwrite = TRUE)
 }
 
+create_cshi_health_data <- function() {
+  data.file <- "demographics.txt"
+  path <- file.path(data.folder, data.file)
+  us.demography <- read.table(path, sep = "\t", header = T)
+  head(cshi.health.data)
+  devtools::use_data(us.demography, overwrite = TRUE)
+
+}
+
+
 create.test.data <- function() {
   #create.snake.df()
   #create.britain.species.df()
-  create.golden.gate.observations.df()
+  #create.golden.gate.observations.df()
+  create_cshi_health_data()
 }
 
 create.test.data()

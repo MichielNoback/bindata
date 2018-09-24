@@ -7,7 +7,7 @@
 \format{A data frame with 42 observations and 7 variables:
 \describe{
 \item{island}{The name of the island}
-\item{area}{The surface area of the island, in \eqn{km^2} square kilometer}
+\item{area}{The surface area of the island, in square kilometer}
 \item{elevation}{Maximum elevation in meters}
 \item{soil.types}{The number of different soil types found on the island}
 \item{latitude}{Midpoint of latitude range in degrees north}
