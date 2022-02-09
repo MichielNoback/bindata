@@ -4,7 +4,8 @@
 \name{britain.species}
 \alias{britain.species}
 \title{Bird species on the British isles}
-\format{A data frame with 42 observations and 7 variables:
+\format{
+A data frame with 42 observations and 7 variables:
 \describe{
 \item{island}{The name of the island}
 \item{area}{The surface area of the island, in square kilometer}
@@ -13,7 +14,8 @@
 \item{latitude}{Midpoint of latitude range in degrees north}
 \item{dis.from.britain}{Distance in kilometers}
 \item{num.species}{Number of observed species}
-}}
+}
+}
 \usage{
 britain.species
 }

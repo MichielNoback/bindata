@@ -22,6 +22,8 @@
 #' head(snakes)
 "snakes"
 
+
+
 #' Bird species on the British isles
 #'
 #' Numbers of bird species observed on 42 British Isles, including area,
@@ -49,6 +51,8 @@
 #' @examples
 #' head(britain.species)
 "britain.species"
+
+
 
 #' Bird observation
 #'
@@ -79,6 +83,8 @@
 #' @examples
 #' head(bird.observations)
 "bird.observations"
+
+
 
 #' Community Health Status Indicators (CSHI 2015)
 #'
@@ -112,28 +118,28 @@
 #' \item{Age_19_Under}{County data, percentage population under age 19}
 #' \item{Min_Age_19_Under}{}
 #' \item{Max_Age_19_Under}{}
-#' \item{Age_19_64}{County data, population age 19-64}
+#' \item{Age_19_64}{County data, percentage population age 19-64}
 #' \item{Min_Age_19_64}{}
 #' \item{Max_Age_19_65}{}
-#' \item{Age_65_84}{County data, population age 65-84}
+#' \item{Age_65_84}{County data, percentage population age 65-84}
 #' \item{Min_Age_65_84}{}
 #' \item{Max_Age_65_85}{}
-#' \item{Age_85_and_Over}{County data, population age 85+}
+#' \item{Age_85_and_Over}{County data, percentage population age 85+}
 #' \item{Min_Age_85_and_Over}{}
 #' \item{Max_Age_85_and_Over}{}
-#' \item{White}{County data, White}
+#' \item{White}{County data, percentage White}
 #' \item{Min_White}{}
 #' \item{Max_White}{}
-#' \item{Black}{County data, Black}
+#' \item{Black}{County data, percentage Black}
 #' \item{Min_Black}{}
 #' \item{Max_Black}{}
-#' \item{Native_American}{County data, American Indian}
+#' \item{Native_American}{County data, percentage American Indian}
 #' \item{Min_Native_American}{}
 #' \item{Max_Native_American}{}
-#' \item{Asian}{County data, Asian/Pacific Islander}
+#' \item{Asian}{County data, percentage Asian/Pacific Islander}
 #' \item{Min_Asian}{}
 #' \item{Max_Asian}{}
-#' \item{Hispanic}{County data, Hispanic origin}
+#' \item{Hispanic}{County data, percentage Hispanic origin}
 #' \item{Min_Hispanic}{}
 #' \item{Max_Hispanic}{}
 #' }
@@ -142,3 +148,24 @@
 #' head(us.demography)
 #'
 "us.demography"
+
+
+#' Cancer incidence, prevalence, survival and mortality in the Netherlands
+#'
+#' Data was downloaded from "Integraal Kankercentrum Nederland" on 2020-01-27
+#'
+#' @source [https://iknl.nl/nkr-cijfers](https://iknl.nl/nkr-cijfers)
+#'
+#' A broad selection was made, split over age groups, cancer types and gender (when available) and
+#' downloaded as Excel. The long-format data was converted to an R object.
+#'
+#' @format A data frame with 7525 observations and 5 variables:
+#' \describe{
+#' \item{Kankersoort}{The type of cancer (Dutch name)}
+#' \item{Periode}{The year}
+#' \item{Geslacht}{Gender}
+#' \item{Leeftijdsgroep}{Age group}
+#' \item{Aantal}{Count}
+#' }
+"cancer_netherlands"
+

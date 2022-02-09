@@ -4,7 +4,8 @@
 \name{bird.observations}
 \alias{bird.observations}
 \title{Bird observation}
-\format{A data frame with 2019 observations and 13 variables:
+\format{
+A data frame with 2019 observations and 13 variables:
 \describe{
 \item{Species.No}{An identifier for the species}
 \item{Genus}{The genus the bird belongs to}
@@ -19,7 +20,8 @@
 \item{Observer1}{The first (primary) observer}
 \item{Other.Obs}{Other Observer(s), comma-separated}
 \item{Notes}{Notes}
-}}
+}
+}
 \usage{
 bird.observations
 }

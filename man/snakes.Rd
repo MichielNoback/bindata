@@ -4,7 +4,8 @@
 \name{snakes}
 \alias{snakes}
 \title{Allometry of snakes}
-\format{A data frame with 1476 observations and 5 variables:
+\format{
+A data frame with 1476 observations and 5 variables:
 \describe{
 \item{Family}{The taxonomic family the snake species belongs to.}
 \item{Genus}{The taxonomic genus the snake species belongs to.}
@@ -12,7 +13,8 @@
 - this should combine with the genus to get the complete scientific name.}
 \item{SVL}{The Snout–vent length, in mm.}
 \item{Mass}{The body mass, in grams.}
-}}
+}
+}
 \usage{
 snakes
 }

@@ -4,7 +4,8 @@
 \name{us.demography}
 \alias{us.demography}
 \title{Community Health Status Indicators (CSHI 2015)}
-\format{A data frame with  observations and  variables:
+\format{
+A data frame with  observations and  variables:
 \describe{
 
 \item{State_FIPS_Code}{}
@@ -27,31 +28,32 @@
 \item{Age_19_Under}{County data, percentage population under age 19}
 \item{Min_Age_19_Under}{}
 \item{Max_Age_19_Under}{}
-\item{Age_19_64}{County data, population age 19-64}
+\item{Age_19_64}{County data, percentage population age 19-64}
 \item{Min_Age_19_64}{}
 \item{Max_Age_19_65}{}
-\item{Age_65_84}{County data, population age 65-84}
+\item{Age_65_84}{County data, percentage population age 65-84}
 \item{Min_Age_65_84}{}
 \item{Max_Age_65_85}{}
-\item{Age_85_and_Over}{County data, population age 85+}
+\item{Age_85_and_Over}{County data, percentage population age 85+}
 \item{Min_Age_85_and_Over}{}
 \item{Max_Age_85_and_Over}{}
-\item{White}{County data, White}
+\item{White}{County data, percentage White}
 \item{Min_White}{}
 \item{Max_White}{}
-\item{Black}{County data, Black}
+\item{Black}{County data, percentage Black}
 \item{Min_Black}{}
 \item{Max_Black}{}
-\item{Native_American}{County data, American Indian}
+\item{Native_American}{County data, percentage American Indian}
 \item{Min_Native_American}{}
 \item{Max_Native_American}{}
-\item{Asian}{County data, Asian/Pacific Islander}
+\item{Asian}{County data, percentage Asian/Pacific Islander}
 \item{Min_Asian}{}
 \item{Max_Asian}{}
-\item{Hispanic}{County data, Hispanic origin}
+\item{Hispanic}{County data, percentage Hispanic origin}
 \item{Min_Hispanic}{}
 \item{Max_Hispanic}{}
-}}
+}
+}
 \usage{
 us.demography
 }
